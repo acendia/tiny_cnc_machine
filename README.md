@@ -4,7 +4,7 @@ A compact, two-axis CNC table designed in FreeCAD. Two stacked plates move on 8 
 
 ![Tiny CNC machine assembly](media/design-views/01-overview.png)
 
-> **Project status:** design study and motion visualization. This is not a verified, build-ready machine. See [Build status](#build-status) before cutting, printing, or buying parts.
+> **Project status:** design study and motion visualization. This is not a verified, build-ready machine.
 
 ## Why I'm building this
 
@@ -96,14 +96,3 @@ media/
 ```
 
 The FreeCAD model is a flattened final assembly: each visible component is a separate solid or mesh, grouped under **Frame**, **Lower carriage**, **Upper table**, and **Drives and motors**. Open it with FreeCAD 1.0 or newer; all dimensions are in millimeters. The assembly STL is a visualization/reference mesh, not a single printable object.
-
-## Build status
-
-This repository documents the design, not a proven machine.
-
-- The lower screw bearing blocks currently overlap the extrusions slightly in the CAD model. Their alignment needs to be resolved before fabrication.
-- Motor mounts, rail spacing, screw alignment, travel limits, fastener engagement, and tool access have not been verified against real parts.
-- The printed mount STLs are provisional and have not been test-printed.
-- The motion recording is illustrative; it does not prove the mechanism is free of collisions through its full travel.
-
-Before building, check every fit against the actual purchased components and revise the CAD as needed.
