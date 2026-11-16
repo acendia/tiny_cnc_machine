@@ -26,6 +26,7 @@ Photos from the physical build, not the render.
 | --- | --- |
 | ![Drilling a plate with a drill press](media/physical/01-drill-press.jpg) | ![Laying out the frame on the floor](media/physical/02-frame-layout.jpg) |
 | ![Test fitting the lower stage](media/physical/03-build-progress.jpg) | ![Frame and moving stage assembled](media/physical/04-frame-front.jpg) |
+| ![Working on the plate fixture](media/physical/05-plate-work.gif) | ![Checking the moving stage](media/physical/06-axis-motion.gif) |
 
 ## How it works
 
@@ -91,7 +92,7 @@ stl/
 media/
   actuator-motion.gif        animated motion study
   design-views/              CAD still renders
-  physical/                  photos from the physical build
+  physical/                  photos and GIFs from the physical build
 ```
 
 The FreeCAD model is a flattened final assembly: each visible component is a separate solid or mesh, grouped under **Frame**, **Lower carriage**, **Upper table**, and **Drives and motors**. Open it with FreeCAD 1.0 or newer; all dimensions are in millimeters. The assembly STL is a visualization/reference mesh, not a single printable object.
