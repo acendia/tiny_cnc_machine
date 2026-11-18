@@ -20,8 +20,6 @@ It all started with a what if.
 
 ## From the bench
 
-Photos from the physical build, not the render.
-
 | | |
 | --- | --- |
 | ![Drilling a plate with a drill press](media/physical/01-drill-press.jpg) | ![Laying out the frame on the floor](media/physical/02-frame-layout.jpg) |
